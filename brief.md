@@ -7,7 +7,7 @@ Developing a trustworthy AI assistant within a government mobile application req
 
 Software Engineering establishes a reliable API that connects the application to the assistant and supports controlled updates. Artificial Intelligence uses Retrieval-Augmented Generation (RAG) to generate responses grounded in official government information. Mobile Development provides a secure, user-friendly chat interface, while Networking ensures connectivity between citizens’ devices and government servers through IPv4 and IPv6. Cybersecurity protects the assistant against malicious instructions and unauthorized actions, while Data Management safeguards personal information within stored conversations.
 
-By integrating these disciplines into one coordinated solution, the government can improve information accessibility, reduce the risk of misinformation, and strengthen citizens’ confidence in its digital services.
+By integrating these disciplines into one coordinated solution, with particular attention to IPv4 and IPv6 addressing, the government can improve information accessibility, support growing connectivity needs, and strengthen citizens’ confidence in its digital services.
 
 ## Software
 Semantic Versioning (MAJOR.MINOR.PATCH) communicates how software updates affect public API compatibility. The MAJOR version increases when backward-incompatible changes occur, such as removing an existing API endpoint. MINOR increases when adding backward-compatible functionality or deprecating features, while PATCH increases for backward-compatible bug fixes. This structured approach helps developers distinguish breaking changes from compatible improvements, manage dependencies effectively, and maintain predictable software updates for the government AI assistant.
