@@ -25,11 +25,19 @@ App Transport Security (ATS) is an iOS security mechanism that enforces secure n
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 
 ## Networking
+IPv4 uses 32-bit addresses, providing approximately 4.3 billion possible addresses, whereas IPv6 uses 128-bit addresses and offers a vastly larger address space. As connected devices increase, limited IPv4 addresses create challenges for network growth. IPv6 supports more addressable devices, hierarchical addressing, and simpler automatic configuration, reducing reliance on Network Address Translation (NAT). These features help government digital services expand connectivity and manage network addressing more efficiently as demand grows.
+
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 
 ## Cybersecurity
+Prompt injection manipulates an AI model through instructions that change its intended behavior. Direct injection comes from prompts submitted to the model, while indirect injection comes from untrusted external content, such as documents or webpages. Two safeguards are enforcing least-privilege access, so the assistant cannot perform unauthorized actions, and separating untrusted source content from trusted system instructions. These controls reduce the risk of malicious instructions affecting a government assistant.
+
+Resource: OWASP LLM01:2025 Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 ## Data
+When managing citizens’ chat logs, anonymization removes identifiable links so individuals cannot reasonably be re-identified using available information. In contrast, pseudonymization replaces personal identifiers with coded references while retaining protected information that enables re-identification. This distinction determines their legal treatment: effectively anonymized records generally fall outside personal data protection laws, depending on the applicable legal framework, whereas pseudonymized records remain regulated personal data. These techniques support privacy protection and responsible data management in government services.
 
+Resource: Anonymisation / pseudonymisation - https://www.edpb.europa.eu/topics/ai-and-technology/anonymisation-pseudonymisation_en
 ## Misconception in My Track
 
 ## Open Question
