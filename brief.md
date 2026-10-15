@@ -39,5 +39,6 @@ When managing citizens’ chat logs, anonymization removes identifiable links so
 
 Resource: Anonymisation / pseudonymisation - https://www.edpb.europa.eu/topics/ai-and-technology/anonymisation-pseudonymisation_en
 ## Misconception in My Track
-
+A common misconception is that IPv6 was introduced solely to address IPv4 address exhaustion, offering no meaningful benefits beyond increased addressing capacity. However, this assumption overlooks significant improvements in network addressing architecture. In addition to its expanded address space, IPv6 supports a more structured addressing hierarchy and simplifies address autoconfiguration. These capabilities facilitate organized address allocation, reduce configuration complexity, and enable networks to accommodate increasing numbers of connected devices more effectively. Therefore, IPv6 should be recognized not merely as a solution to address scarcity, but as an advancement in scalable and manageable network design. This correction is supported by Section 1, ‘Introduction,’ under ‘Expanded Addressing Capabilities’ in the IPv6 specification.
 ## Open Question
+How can IPv4 and IPv6 coexist efficiently within modern network infrastructures, and what technical considerations are essential to maintaining reliable connectivity as the number of internet-connected devices continues to grow?
